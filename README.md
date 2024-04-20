@@ -1,2 +1,2 @@
-# find_something
+# Find_something_with_Go
 Goを使っていろいろなことをしてみるレポジトリ
