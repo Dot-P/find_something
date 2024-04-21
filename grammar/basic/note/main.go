@@ -63,4 +63,13 @@ func main() {
 	n, ok := i.([]byte)
 	fmt.Println(n, ok)
 
+	switch i.(type) {
+	case int:
+		fmt.Println("This is integer")
+	case string:
+		fmt.Println("This is string")
+	default:
+		fmt.Println("This is unknown type")
+	}
+
 }
